@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="StickerSpot's privacy policy for its beta app: on-device sticker processing, local diagnostics, optional feedback, and Apple TestFlight.">
+  <meta name="theme-color" content="#f7f7f2">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+  <title>StickerSpot — Privacy Policy</title>
+  <style>
+    :root{color-scheme:light;--ink:#202721;--muted:#5f685f;--line:#dce0d6;--paper:#f7f7f2;--accent:#355d43}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px}body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:16px;line-height:1.75;-webkit-font-smoothing:antialiased}
+    a{color:var(--accent);text-underline-offset:4px;overflow-wrap:anywhere}a:hover{text-decoration-thickness:2px}a:focus-visible{outline:3px solid #749b75;outline-offset:5px;border-radius:2px}
+    .skip{position:absolute;left:20px;top:-80px;background:white;padding:10px 20px;z-index:2}.skip:focus{top:12px}
+    .wrap{width:min(1096px,calc(100% - 64px));margin:0 auto}header{display:flex;align-items:center;justify-content:space-between;padding:28px 0;border-bottom:1px solid var(--line)}.brand{font-size:21px;font-weight:750;letter-spacing:-.6px}.beta{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--line);border-radius:999px;padding:4px 12px;color:var(--muted)}
+    .layout{display:grid;grid-template-columns:210px minmax(0,1fr);gap:64px;padding:64px 0 76px}aside{align-self:start;position:sticky;top:32px}.nav-label{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);margin:0 0 16px}nav a{display:block;font-size:14px;text-decoration:none;margin:9px 0;color:var(--muted)}nav a:hover{color:var(--ink);text-decoration:underline}
+    main{min-width:0;max-width:740px}.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.13em;font-weight:700;color:var(--accent);margin:0 0 10px}h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(42px,6vw,64px);line-height:1.06;font-weight:400;letter-spacing:-2px;margin:0 0 20px}.intro{font-size:19px;color:var(--muted);line-height:1.6;margin:0 0 18px}.date{font-size:13px;color:var(--muted);margin:0 0 32px}.summary{background:#e9eee2;border:1px solid #d6dfcb;border-radius:16px;padding:24px 28px;margin:0 0 36px}.summary-title{font-size:18px;font-weight:650;margin:0 0 8px}.summary p:last-child{margin-bottom:0}.summary p{margin-top:0}
+    h2{font-size:22px;line-height:1.35;letter-spacing:-.45px;margin:36px 0 14px;font-weight:650}section{border-top:1px solid var(--line);padding-top:2px}section p{margin:0 0 18px}ul{padding-left:22px;margin:0 0 22px}li{padding-left:3px;margin:7px 0}strong{font-weight:650}.contact{background:white;border:1px solid var(--line);border-radius:16px;padding:24px 28px;margin-top:32px}.contact h2{margin:0 0 8px}.contact p{margin:0 0 10px}.contact p:last-child{margin-bottom:0}.small{font-size:13px;color:var(--muted)}footer{border-top:1px solid var(--line);padding:22px 0 32px;display:flex;justify-content:space-between;gap:16px;font-size:12px;color:var(--muted)}
+    @media(max-width:800px){.layout{grid-template-columns:1fr;gap:32px;padding-top:38px}aside{position:static}nav{display:flex;flex-wrap:wrap;gap:6px 18px}nav a{margin:0}.nav-label{margin-bottom:9px}.wrap{width:calc(100% - 40px)}h1{letter-spacing:-1.5px}.summary,.contact{padding:22px}footer{flex-direction:column;gap:4px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+    @media print{body{background:white;color:black}.wrap{width:100%}header,aside,footer,.skip{display:none}.layout{display:block;padding:0}main{max-width:none}h1{font-size:36px}.summary,.contact{background:white;break-inside:avoid}a{color:black}h2{break-after:avoid}section{break-inside:auto}}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#policy">Skip to privacy policy</a>
+  <div class="wrap">
+    <header><div class="brand">StickerSpot</div><span class="beta">Beta release</span></header>
+    <div class="layout">
+      <aside aria-label="Policy contents"><p class="nav-label">On this page</p><nav aria-label="Privacy policy sections">
+        <a href="#on-device">On-device processing</a><a href="#diagnostics">Local diagnostics</a><a href="#sharing">Sharing and support</a><a href="#testflight">TestFlight testing</a><a href="#retention">Retention and deletion</a><a href="#services">Other services</a><a href="#changes">Policy updates</a><a href="#contact">Contact</a>
+      </nav></aside>
+      <main id="policy">
+        <p class="eyebrow">StickerSpot / Privacy</p>
+        <h1>Privacy policy</h1>
+        <p class="intro">How StickerSpot handles information during sticker capture, saving, sharing, and beta testing.</p>
+        <p class="date">Effective and last updated: <time datetime="2026-11-05">November 5, 2026</time></p>
+        <div class="summary"><p class="summary-title">Your sticker processing stays on your device.</p><p>StickerSpot does not automatically upload your screenshots, saved stickers, or local capture reports to us. The beta does not use advertising, tracking, or third-party analytics and crash-reporting tools. Apple TestFlight handles beta diagnostics separately, as described below.</p></div>
+        <p>This policy applies to the current StickerSpot beta app and its capture and Messages extensions. “We” and “us” mean StickerSpot’s developer, reachable at <a href="mailto:skombo130@gmail.com">skombo130@gmail.com</a>.</p>
+        <section id="on-device"><h2>1. On-device processing and storage</h2>
+          <p>When you start a capture using the prepared Shortcut, StickerSpot processes screenshots on your device to identify and create sticker cutouts. Original screenshots are processed in memory; this workflow does not save them to your Photos library or upload them to our servers.</p>
+          <p>The stickers you choose to save, their associated metadata, and setup preferences are stored locally. The app and its extensions share a local storage area so your stickers are available in StickerSpot and Messages. The current beta has no user accounts or developer-operated cloud backend.</p>
+        </section>
+        <section id="diagnostics"><h2>2. Local diagnostics</h2>
+          <p>StickerSpot records technical information locally to help explain capture behavior and failures. This can include capture counts, dates, timing, outcomes, technical error codes, the app build and iOS version, and identifiers for individual capture attempts.</p>
+          <p>The exportable beta capture report contains technical information and counts, not screenshots, sticker images, recognized screen text, message content, or a persistent device identifier. These reports are not uploaded automatically. StickerSpot does not currently include third-party analytics, advertising, tracking, or crash-reporting SDKs.</p>
+        </section>
+        <section id="sharing"><h2>3. Sharing and support you choose</h2>
+          <p>You can choose to share stickers through Messages or the iOS share sheet. The recipient and destination service receive the content you choose to share. Their own privacy practices apply.</p>
+          <p>You can also choose to export a beta capture report and send it to us. If you email us or send a report, we receive the information you provide, which may include your email address, message, technical report, and any attachments you select. We use that information to respond to you, investigate problems, and improve StickerSpot. Do not include information you do not want to share.</p>
+          <p>We do not sell personal information or use support messages or beta reports for advertising or tracking.</p>
+        </section>
+        <section id="testflight"><h2>4. Apple TestFlight beta testing</h2>
+          <p>If you install StickerSpot through TestFlight, Apple automatically collects beta crash logs and usage information and shares it with the app developer. Depending on how you join or submit feedback, this information may also include your name and email address. Apple also shares feedback and attachments you choose to submit through TestFlight.</p>
+          <p>We use this beta information to investigate issues and improve StickerSpot, not for advertising, and do not share TestFlight information with third parties. This Apple-provided testing process is separate from StickerSpot’s local capture reports.</p>
+          <p>For details about Apple’s handling of this information, read <a href="https://www.apple.com/legal/privacy/data/en/test-flight/">TestFlight &amp; Privacy</a>.</p>
+        </section>
+        <section id="retention"><h2>5. Retention, deletion, and your choices</h2>
+          <p>Saved stickers remain in local storage until you delete them or remove the app’s stored data. You can delete stickers from the library. Local diagnostics and settings remain on the device until overwritten by the app or removed with its stored data.</p>
+          <p>If you voluntarily send us support correspondence or reports, we retain them only as needed for support, resolving beta issues, and any applicable legal obligations. Contact us to request access to or deletion of information you have sent us or that we received through TestFlight. We will handle requests subject to applicable requirements and the controls available to us.</p>
+          <p>You can manage data controlled by Apple through <a href="https://privacy.apple.com/">Apple’s Data and Privacy page</a>. Deleting StickerSpot does not recall messages, sticker files, or reports you have already shared with other people or services.</p>
+        </section>
+        <section id="services"><h2>6. Other services and this page</h2>
+          <p>Apple services, including Shortcuts, Messages, and TestFlight, and other apps you choose to use have their own privacy practices. This policy describes StickerSpot and does not replace the policies of those services. See <a href="https://www.apple.com/legal/privacy/">Apple’s Privacy Policy</a>.</p>
+          <p>This privacy-policy page is hosted on GitHub Pages and contains no analytics scripts, advertising, or forms. GitHub logs visitors’ IP addresses for security purposes. See the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a> for more about its handling of website visitor information.</p>
+        </section>
+        <section id="changes"><h2>7. Updates to this policy</h2>
+          <p>We may update this policy as StickerSpot changes. The current version and its effective date will appear on this page. If we introduce online analytics, third-party crash reporting, or other new data collection, we will update this policy and the applicable app privacy disclosures to describe those practices.</p>
+        </section>
+        <section class="contact" id="contact"><h2>Questions about privacy?</h2><p>Contact StickerSpot’s developer at <a href="mailto:skombo130@gmail.com">skombo130@gmail.com</a>.</p><p class="small">For support, data-access requests, or deletion requests, include “StickerSpot privacy” in your subject line.</p></section>
+      </main>
+    </div>
+    <footer><span>StickerSpot · Privacy policy</span><span>Last updated November 5, 2026</span></footer>
+  </div>
+</body>
+</html>
